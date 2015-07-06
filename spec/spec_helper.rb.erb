@@ -1,6 +1,3 @@
-<%- unless bundler? -%>
-gem 'rspec', '<%= @development_dependencies['rspec'] %>'
-<%- end -%>
 require 'rspec'
 require '<%= @namespace_path %>/version'
 
